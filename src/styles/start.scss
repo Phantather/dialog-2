@@ -1,0 +1,46 @@
+.start {
+  padding-bottom: 70px;
+  &__block {
+    background: url("../images/startBg.png")no-repeat;
+    background-size: cover;
+    padding: 80px 0 86px 70px;
+    border-radius: 12px;
+    height: 493px;
+  }
+  &__info {
+    width: 45%;
+  }
+  &__suptitle {
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-left: 60px;
+  }
+  &__title {
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin: 20px 0 38px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+  }
+
+  &__item {
+    display: flex;
+    column-gap: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+  &__num {
+    font-weight: 800;
+    color: #E6514A;
+  }
+
+
+}

@@ -1,0 +1,53 @@
+.courses {
+  padding: 80px 0;
+  background: #F8F8FF;
+}
+
+.tabs__content {
+  display: none; /* по умолчанию прячем все блоки */
+}
+
+.tabs__content.active {
+  display: block; /* по умолчанию показываем нужный блок */
+}
+
+.tabs{
+  &__caption{
+    margin: 40px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__item{
+    &-text{
+      display: none;
+    }
+    &.active{
+      color: red;
+      .tabs__item-text{
+        display: inline;
+      }
+      text-decoration: underline 3px;
+      text-underline-offset: 10px;
+    }
+    cursor: pointer;
+  }
+
+  &__lvl{
+    width: 220px;
+    margin-bottom: 20px;
+    &-max{
+      margin-top: 20px;
+      width: 100%;
+      background: #DEDEFF;
+      border-radius: 10px;
+      height: 8px;
+    }
+    &-current {
+      background: red;
+      height: 100%;
+      border-radius: 10px;
+
+    }
+  }
+}

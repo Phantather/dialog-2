@@ -1,0 +1,36 @@
+.begin {
+  padding: 120px 0 140px;
+  position: relative;
+  &__row {
+    display: flex;
+    column-gap: 80px;
+  }
+  &__left {
+    width: 45%;
+  }
+  &__suptitle {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #3035C4;
+  }
+  &__title {
+    font-size: 45px;
+    line-height: 130%;
+    color: #23283B;
+    margin: 28px 0 52px;
+  }
+  &__right {
+    position: absolute;
+    right: 0;
+    top: -100px;
+    z-index: -2;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .begin{
+    padding-top: 253px;
+  }
+}

@@ -1,0 +1,30 @@
+.question {
+  padding: 100px 0;
+  background: url("../images/question.png") center/cover no-repeat;
+  &__block {
+    display: flex;
+    align-items: center;
+    column-gap: 183px;
+  }
+  &__info {
+    width: 70%;
+  }
+  &__title {
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+  }
+  &__desc {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+
+  &__btn {
+    width: 247px;
+    padding: 16px 10px;
+  }
+
+}

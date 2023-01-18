@@ -1,0 +1,31 @@
+.mentors {
+  padding: 100px 0 120px;
+  &__card {
+    text-align: center;
+    &-img {
+      width: 100%;
+      height: 210px;
+      background: #DEDEFF;
+      border-radius: 12px;
+    }
+    &-title {
+      font-size: 20px;
+      color: #3035C4;
+      margin: 43px 0 32px;
+    }
+    &-desc {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: #23283B;
+    }
+  }
+}
+
+.mySwiper {
+  padding: 60px 0;
+}
+
+.swiper-pagination-bullet-active {
+  background: #E6514A;
+}
